@@ -28,4 +28,5 @@ Your GUID is: *{USER_GUID}*
 
 Your username is: *{USERNAME}*
 
+Your server is {SERVER}
 ----

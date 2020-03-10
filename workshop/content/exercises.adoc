@@ -5,4 +5,6 @@
 
 == Installation
 
+Hello {%USER_GUID%}
+
 // Describe the installation process (if necessary)
