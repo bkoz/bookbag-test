@@ -1,9 +1,30 @@
-name: OpenShift 4 UPI Disconnected Deployment
+id: "workshop1"
+name: "A Practical Introduction to Container Security"
 
+vars:
+  OPENSHIFT_DOCS_BASE: "https://docs.openshift.com/container-platform/3.11"
+  OPENSHIFT_MASTER_URL: "http://192.168.1.100:8443"
+  SERVER_0: node1.$GUID.internal
+  SERVER_1: node2.$GUID.internal
+  SERVER_2: server2.summit.lab
+  SERVER_DIST: dist.summit.lab
+  BASTION: bastion.$GUID.sandbox1485.opentlc.com
+  RHEL_CONTAINER: registry.access.redhat.com/ubi8/ubi
+  CONTAINER_PROMPT: bash-4.4#
+
+  ROOT_USERNAME: "root"
+  ROOT_PASSWORD: "redhat"
+  USE_CRI-O: false
+  
 modules:
-    activate:
-    - overview
-    - prepare-environment
-    - exercises
-    - cleanup
-    - solving-resetting
+  activate:
+  - lab1
+  - lab2
+  - lab3
+  - lab4
+  - lab5
+  - lab6
+  - lab7
+  - lab8
+  - lab9
+  - lab10

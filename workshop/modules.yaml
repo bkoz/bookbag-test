@@ -1,17 +1,24 @@
-modules:
-    overview:
-        name: Workshop Overview
-        exit_sign: Prepare Environment
-    prepare-environment:
-        name: Prepare Environment
-        exit_sign: Lab Exercises 
-    exercises:
-        name: Lab Exercises
-        exit_sign: Cleanup
-    cleanup:
-        name: Cleanup
-        exit_sign: Resetting and Solving
-    solving-resetting:
-        name: Resetting and Solving
-        exit_sign: Finish Workshop
+config:
+    renderer: markdown
 
+modules:
+  lab1:
+    name: Welcome
+  lab2:
+    name: Introduction
+  lab3:
+    name: Podman Basics 
+  lab4:
+    name: Registry Configuration
+  lab5: 
+    name: Isolation
+  lab6:
+    name: SELinux and Containers
+  lab7:
+    name: Inspecting Content
+  lab8:
+    name: Image Trust and Signing
+  lab9:
+    name: Secure Builds
+  lab10:
+    name: Thanks
